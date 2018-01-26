@@ -20,5 +20,6 @@
 	<p id="p">-Nom de code du tueur: H4D35</p>
 	<p id="p">-Série de victimes: 1</p>
 	<input type="button" value="Commencer" id="Bouton"/>
+	<div id="D1"><a href="Icn doc.html">dddddddddd</a></div>
 	</body>
 </html>
