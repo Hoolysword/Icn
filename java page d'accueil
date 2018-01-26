@@ -1,0 +1,8 @@
+function debut(){
+    var bouton=window.getElementbyId("Bouton");
+    Bouton.addEventListener("click",commencer);
+}
+function commencer(){
+    document.location.href("Icn doc.html");
+}
+window.addEventListene("load",debut);
