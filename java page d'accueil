@@ -3,6 +3,6 @@ function debut(){
     Bouton.addEventListener("click",commencer);
 }
 function commencer(){
-    document.location.href("Icn doc.html");
+    window.location="Icn doc.html";
 }
 window.addEventListene("load",debut);
