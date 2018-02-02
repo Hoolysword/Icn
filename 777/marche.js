@@ -1,4 +1,4 @@
-﻿var somme=100;
+var somme=100;
 
 
 function debut(){
@@ -10,9 +10,9 @@ function random(){
 	if (somme<10){
 	document.getElementById('button').disabled = true; }
 	somme=somme-10;
-	x=Math.round(Math.random()*9);
-	y=Math.round(Math.random()*9);
-	z=Math.round(Math.random()*9);
+	x=5;
+	y=7;
+	z=8;
 document.getElementById('nombrea').innerHTML = x;
 document.getElementById('nombreb').innerHTML = y;// les document.getElementById ce mettent toujours dans une fonction et avec des simple quote(') et pas des double quote (")
 document.getElementById('nombrec').innerHTML = z;
