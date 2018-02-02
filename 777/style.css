@@ -1,10 +1,11 @@
 #nombre{
   background-image:url("machine.png");
   background-repeat:no-repeat;
+  background-size: 100%;
   display: flex;
   margin-top:6%;
   margin-left:30% ;
-  margin-right:30% ;
+  margin-right:10% ;
   font-size: 155px;
   justify-content: space-around;
  color: red;
@@ -14,9 +15,9 @@
 }
 #deux{
   display: flex;
-  margin-left: 30%;
+  margin-left: 42%;
   font-size:60px;
-    margin-right: 30%;
+    margin-right: 20%;
   justify-content: space-between;
   border-style: solid;
   margin-top: 1%;
@@ -57,6 +58,7 @@
 body{
   background-image: url("casino.jpg");
   background-repeat: no-repeat;
+  background-size: 100% 117%;
 }
 #regle{
   margin-right: 80%;
