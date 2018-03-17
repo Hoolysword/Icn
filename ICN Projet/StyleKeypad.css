@@ -1,0 +1,58 @@
+#bouton1575{
+  display: flex;
+  margin-top: 2%;
+}
+#bouton{
+  display: flex;
+}
+#bouton0{
+  width: 5%;
+  height: 60px;
+}
+#bouton1{
+  width: 5%;
+  height: 60px;
+}
+#bouton2{
+   width: 5%;
+  height: 60px;
+}
+#bouton3{ 
+  width: 5%;
+  height: 60px;
+}
+#bouton4{
+   width: 5%;
+  height: 60px;
+}
+#bouton5{
+   width: 5%;
+  height: 60px;
+}
+#bouton6{
+   width: 5%;
+  height: 60px;
+}
+#bouton7{
+   width: 5%;
+  height: 60px;
+}
+#bouton8{
+   width: 5%;
+  height: 60px;
+}
+#bouton9{
+   width: 5%;
+  height: 60px;
+}
+#boutonvalide{
+   width: 10%;
+  height: 60px;
+  margin-left: -0.27%;
+}
+#contenue{
+  border-style: ridge;
+  width:14.5%;
+  height: 20px;
+  margin-top: -18.75%;
+}
