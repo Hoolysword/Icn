@@ -67,6 +67,9 @@ function random10(){
 if (contenue.innerHTML==548){
 	document.location.href="mur.html";
 }
+if (contenue.innerHTML==578){
+	document.location.href="mur.html"
+}
 else{
 	contenue=document.getElementById("contenue")
 	contenue.innerHTML=" ";
