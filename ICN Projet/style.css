@@ -1,0 +1,23 @@
+body{
+  background-image:url("Capture.PNG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fichier1{
+  margin-left: 35%;
+  margin-right: 20%;
+ height: 5%;
+  opacity:0;
+  
+}
+#div2{
+  margin-left: 35%;
+  margin-top: 24%;
+  opacity: 0;
+}
+#div3{
+  margin-top: 0.5%;
+   margin-left: 35%;
+  opacity: 0;
+}

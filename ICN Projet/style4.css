@@ -1,0 +1,21 @@
+body{
+  background-image:url("Capture4.PNG");}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#callculatrice{
+  width: 50%;
+  height: 25px;
+  margin-top: 27.5%;
+  margin-left: 43%;
+  opacity: 0;
+}
+#calculatrice{
+    width: 50%;
+  height: 25px;
+  margin-left: 43%;
+  opacity: 0;
+}
+ 

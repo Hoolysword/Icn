@@ -1,0 +1,11 @@
+body{
+  background-image:url("Capture2.PNG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#div1{
+  margin-left: 98%;
+  margin-top: -0.5%;
+  opacity: 0;
+}
