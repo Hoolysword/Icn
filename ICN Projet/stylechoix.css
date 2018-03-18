@@ -1,0 +1,84 @@
+body{
+  background-image:url("Image/mur.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+#personnage{
+  position:absolute;
+  height:98%;
+  width:98%;
+}
+
+#imgpersonnage{
+  position:absolute;
+  height:100%;
+  width:100%;
+}
+
+#choix{
+	position: absolute;
+	top:70%;
+	height: 100%;
+	width:100%;
+}
+
+#choix1{
+	margin-left: 2%;
+	font-size: 32px;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
+	top:50%;
+}
+
+#choix2{
+	margin-left: 8%;
+	font-size: 32px;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
+}
+
+#choix3{
+	margin-left: 8%;
+	font-size: 32px;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
+}
+
+#choix4{
+	margin-left: 8%;
+	font-size: 32px;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
+}
+
+#choix5{
+	margin-left: 8%;
+	font-size: 32px;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
+}
+
+
+/* <!-- Fait par Aodren Roth --> */

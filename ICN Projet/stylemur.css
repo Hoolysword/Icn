@@ -2,98 +2,122 @@ body{
   background-image:url("Image/Mur.jpg");
 }
 
-#appart1{
-	margin-left: 10%;
+#choix{
+	margin-left: 5%;
 	font-size: 32px;
 	margin-top: 8%;
-	height: 50px;
-	color: white;
-	background-color:red;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
+}
+
+#appart1{
+	margin-left: 5%;
+	font-size: 32px;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
 }
 
 #appart2{
-	margin-left: 10%;
-	margin-top: 8%;
-	height:50px;
+	margin-left: 5%;
 	font-size: 32px;
-	color: white;
-	background-color:red;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
 }
 
 #appart3{
-	margin-left: 10%;
-	margin-top: 8%;
-	height:50px;
+	margin-left: 5%;
 	font-size: 32px;
-	color: white;
-	background-color:red;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
 }
 
 #appart4{
-	margin-left: 10%;
-	margin-top: 8%;
-	height:50px;
+	margin-left: 5%;
 	font-size: 32px;
-	color: white;
-	background-color:red;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
 }
 
 #appart5{
-	margin-left: 10%;
-	margin-top: 8%;
-	height:50px;
+	margin-left: 5%;
 	font-size: 32px;
-	color: white;
-	background-color:red;
+	margin-top: 8%;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
 }
 
 #appart6{
-	margin-left: 10%;
+	margin-left: 5%;
+	font-size: 32px;
 	margin-top: 8%;
-	height:50px;
-	font-size: 32px;
-	color: white;
-	background-color:red;
-}
-
-#vide{
-	left: 10%;
-	font-size: 32px;
-	color: white;
+	height: 80px;
+	color: black;
+	background-color: #2B6C64;
+	border: 10px solid black;
+	padding: 5px;
 }
 
 #personnage1{
 	left: 10%;
-	font-size: 32px;
-	color: white;
 	position:absolute;
 }
 
 #personnage2{
-	left: 10%;
-	font-size: 32px;
-	color: white;
+	top: -15%;
+	left: -30%;
 	position:absolute;
 }
 
-#personnage2{
-	left: 10%;
-	font-size: 32px;
-	color: white;
+#personnage3{
+	top: -15%;
+	left: -70%;
 	position:absolute;
 }
-
+	
 #personnage4{
-	left: 10%;
-	font-size: 32px;
-	color: white;
+	left: -110%;
 	position:absolute;
+	top: -15%;
 }
-
+		
 #personnage5{
 	position:absolute;
 	left:-140%;
-	font-size: 32px;
-	color: white;
-	position:absolute;
+	top: -15%;
+
 }
+			
+#txt{
+	position: absolute;
+	left:35%;
+	top: 10%;
+	font-size: 20px;
+	background-color: #2B6C64;
+	border: 15px solid black;
+	padding: 25px;
+	margin: 25px;
+}
+
+/* <!-- Fait par Aodren Roth --> */
