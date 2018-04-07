@@ -1,0 +1,21 @@
+body{
+  background-image:url("fontel.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%;
+}
+
+#form{
+	position:absolute;
+	left:25%;
+	top:10%;
+	background-color:rgba(100,100,100,0.5);
+	border:black 2px;
+}
+
+#maps{
+	height:10%;
+	width:10%;
+	position:absolute;
+	
+}

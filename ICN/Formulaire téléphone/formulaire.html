@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!--définition du codage des caractères-->
+		<meta http-equiv="Content-Type" content="text/html ; charset=utf-8" />
+		<!-- Donne le nom de l'onglet -->
+		<title>Première étape</title> 
+		<!-- Donne le nom de l'auteur-->
+		<meta name="auteur" content="Mr Mattot" />
+		<link rel="stylesheet" href="styleformulaire.css" />
+		<script type="text/javascript" src="highcharts.src.js"></script>
+		<script type="text/javascript" src="marcheformulaire.js"></script>
+	</head>
+	
+	<body>
+	
+	<form id="form" action="mailto : a.mattot@laposte.net" method= "post" enctype="text/plain">
+	<legend>Formulaire</legend>
+	
+	<label>Nom :</label>
+		<input id="nom" type="text" value="Nom"></input>
+		
+	</br></br>
+	
+	<label>Prénom :</label>
+		<input id="prenom" type="text" value="Prénom"></input>
+		
+	</br></br>
+	
+	<label>Adresse :</label>
+		<input id="adresse" type="text" value="Adresse"></input>
+		
+	</br></br>
+	
+	<label>Civilité :</label>
+	</br></br>
+	<label>Monsieur</label>
+		<input type="radio" name="civilite" value="Monsieur"/>
+		
+	<label>Madame</label>
+	
+		<input type="radio" name="civilite" value="Madame" checked="checked"/>
+		
+	</br></br>
+	
+	<label>Numéro de téléphone :</label>
+		<input id="num" type="text" value="Votre numéro"></input>
+		
+	</br></br>
+	
+	<label>Téléphone :</label>
+	
+	</br></br>
+	
+	<select id="tel" value="Wiko">
+			<option>Wiko</option>
+			<option>Samsung</option>
+			<option>Apple</option>
+			<option>Huawei</option>
+			<option>Asus</option>
+		</select>
+		
+	</br></br>
+	
+	<label>Applications :</label>
+		
+	<label>Discord </label>
+		<input type="checkbox" name="appli" value="Discord"/>
+	<label>Facebook </label>
+		<input type="checkbox" name="appli" value="Facebook"/>
+	<label>Twitter </label>
+		<input type="checkbox" name="appli" value="Twitter"/>
+	<label>Instagram </label>
+		<input type="checkbox" name="appli" value="Instagram"/>
+	<label>Snapchat </label>
+		<input type="checkbox" name="appli" value="Snapchat"/>
+	</br></br>
+		
+	<input type="submit" id="valider" value="Envoyer" />
+	
+	</form>
+	
+	<div id="maps"></div>
+	
+	</body>
+
+</html>

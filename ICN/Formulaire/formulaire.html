@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!--définition du codage des caractères-->
+		<meta http-equiv="Content-Type" content="text/html ; charset=utf-8" />
+		<!-- Donne le nom de l'onglet -->
+		<title>Première étape</title> 
+		<!-- Donne le nom de l'auteur-->
+		<meta name="auteur" content="Mr Mattot" />
+		<link rel="stylesheet" href="styleformulaire.css" />
+		<script type="text/javascript" src="marcheformulaire.js"></script>
+	</head>
+	
+	<body>
+	
+	<form action="mailto : a.mattot@laposte.net" method= "post" enctype="text/plain">
+	<fieldset>
+	<legend>Formulaire</legend>
+	
+	<label>Nom :</label>
+		<input id="nom" type="text" value="Nom"></input>
+	</br></br>
+	<label>Prénom :</label>
+		<input id="prenom" type="text" value="Prénom"></input>
+	</br></br>
+	<label>Classe :</label>
+		<select id="classe" value="1S1">
+			<option>1S1</option>
+			<option>1S2</option>
+			<option>1S3</option>
+			<option>1S4</option>
+		</select>
+	</br></br>
+	<label>Civilité :</label>
+	</br></br>
+	<label>Monsieur</label>
+		<input type="radio" name="civilite" value="Monsieur"/>
+	<label>Madame</label>
+		<input type="radio" name="civilite" value="Madame" checked="checked"/>
+	</br></br>
+	<label>Activités extérieures :</label>
+	</br></br>
+	<label>Danse </label>
+		<input type="checkbox" name="act" value="La danse"/>
+	<label>Sport </label>
+		<input type="checkbox" name="act" value="Le sport"/>
+	<label>Cinéma </label>
+		<input type="checkbox" name="act" value="Le cinoche"/>
+	<label>Dessin </label>
+		<input type="checkbox" name="act" value="Le dessin"/>
+	<label>Musique </label>
+		<input type="checkbox" name="act" value="La musique"/>
+	</br></br>
+	<input type="submit" id="valider" value="Envoyer" />
+	
+	</fieldset>
+	</form>
+	
+	</body>
+
+</html>
